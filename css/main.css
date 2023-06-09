@@ -1,0 +1,72 @@
+#root {
+    overflow-y: scroll;
+}
+
+.main-card {
+    width: 90%;
+    text-decoration: none;
+    color: black;
+}
+
+.main-card-wrapper {
+    width: 100%;
+
+    color: black;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-pic {
+    width: 30%;
+    margin: 3rem 0;
+
+    border-radius: 50%;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1rem 0;
+
+    justify-content: center;
+}
+
+.main-class-title {
+    font-size: 3.5rem;
+}
+
+.main-professor {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.main-name {
+    display: flex;
+    font-size: 2rem;
+}
+
+.main-icon {
+    width: 2rem;
+}
+
+.main-email {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 0.5rem;
+    font-size: 2rem;
+}
+
+.main-time {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+}
